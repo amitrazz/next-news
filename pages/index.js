@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
       <h2>
         Next News application 
+        <br/>
         <a href="/news"><button>News</button>
 </a>
       </h2>
