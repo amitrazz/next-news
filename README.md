@@ -18,6 +18,4 @@
 > belows are routes available in application 
 >> http://localhost:3000 -- Home Page
 >>
->> http://localhost:3000/news  -- News page
->>
 >> http://localhost:3000/news/{topicParam}  -- ex. http://localhost:3000/news/bitcoin, http://localhost:3000/news/software, http://localhost:3000/news/test etc.   

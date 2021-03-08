@@ -71,4 +71,6 @@ export async function getStaticPaths() {
     fallback: 'blocking'  // See the "fallback" section below
   };
 }
+
+
 export default News;

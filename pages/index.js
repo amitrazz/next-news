@@ -9,9 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h2>
-        Next News application 
-        <br/>
-        <a href="/news"><button>News</button>
+        Next News application </h2>
 </a>
       </h2>
     </div>
