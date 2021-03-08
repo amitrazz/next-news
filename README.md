@@ -6,12 +6,12 @@
 > `$ git clone https://github.com/amitrazz/next-news.git`
 
 ### Install dependencies  
-> `npm Install`
+> `$ npm Install`
 
 ### Navigate to Repo
-> `cd next-news`
+> `$ cd next-news`
 ### Run App in local system
-> `npm run dev`
+> `$ npm run dev`
 
 ## Access URL
 > belows are routes available in application 
