@@ -9,8 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h2>
-        Next News application </h2>
-</a>
+        Next Js News application
       </h2>
     </div>
   )
