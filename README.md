@@ -5,11 +5,12 @@
 ###  Clone Repo
 > `$ git clone https://github.com/amitrazz/next-news.git`
 
+### Navigate to Repo
+> `$ cd next-news`
+
 ### Install dependencies  
 > `$ npm Install`
 
-### Navigate to Repo
-> `$ cd next-news`
 ### Run App in local system
 > `$ npm run dev`
 
