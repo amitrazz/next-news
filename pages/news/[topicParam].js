@@ -56,14 +56,19 @@ const getNewsdata = async (queryParam) => {
     return data.data.articles;
 };
 
-export async function getServerSideProps(context) {
-  const newsInformation = await getNewsdata(context.params.topicParam
-    .split(" ")
-    .join("%20"));
+export async function getStaticProps({ params }) {
+  const newsInformation = await getNewsdata(params.topicParam .split(" ").join("%20"));
   return {
     props: {
       newsInformation,
-    }
+    },
+    revalidate: 1, //Stable Incremental Static Regeneration 
+  };
+}
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: 'blocking'  // See the "fallback" section below
   };
 }
 export default News;
