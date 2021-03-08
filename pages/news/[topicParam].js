@@ -50,14 +50,14 @@ const News = ({ newsInformation }) => {
       );
 };
 const getNewsdata = async (queryParam) => {
-    // let queryParam = 'bitcoin'; // need to add logic to search daynmicaly 
+    // let queryParam = 'bitcoin'; // need to add logic to search dynamically 
     const pageSize = 100;
     const data = await axios.get(`everything?q=${queryParam}&pageSize=${pageSize}`);
     return data.data.articles;
 };
 
 export async function getServerSideProps(context) {
-  const newsInformation = await getNewsdata(context.params.pid
+  const newsInformation = await getNewsdata(context.params.topicParam
     .split(" ")
     .join("%20"));
   return {
